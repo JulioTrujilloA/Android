@@ -4,38 +4,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText et1, et2;
-    private TextView tv3;
-
-    //Este método se ejecutará cuando se presione el botón de sumar
-    public void sumar(View view) {
-        String valor1 = et1.getText().toString(); //Obtenemos el valor de las
-        String valor2 = et2.getText().toString();
-
-        int nro1 = Integer.parseInt(valor1);
-        int nro2 = Integer.parseInt(valor2);
-
-        int suma = nro1 + nro2;
-
-        String resultado = String.valueOf(suma);
-
-        tv3.setText(resultado);
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        et1 = (EditText) findViewById(R.id.et1);
-        et2 = (EditText) findViewById(R.id.et2);
-        tv3 = (TextView) findViewById(R.id.tv3);
     }
 
     @Override

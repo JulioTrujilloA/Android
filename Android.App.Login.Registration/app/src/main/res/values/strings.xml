@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android.App.Login.Registration</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings de app Login-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre</string>
+    <string name="btn_login">ENTRAR</string>
+    <string name="btn_register">REGISTRAR</string>
+    <string name="btn_link_to_register">No eres miembro? Suscríbete.</string>
+    <string name="btn_link_to_login">Te has registrado! Iniciar sesión.</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="btn_logout">SALIR</string>
+    <string name="name">Nombre completo</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>
